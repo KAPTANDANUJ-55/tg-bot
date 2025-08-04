@@ -8,7 +8,7 @@ import asyncio
 async def main():
     setup_logger()
 
-    app = ApplicationBuilder().token("").build()
+    app = ApplicationBuilder().token("7339710265:AAEaxDwmS2_KTQ9LgWqKIJdmJxHmzhSzpdU").build()
 
     # Add all handlers
     app.add_handler(start_handler)
@@ -21,3 +21,4 @@ async def main():
 
 if __name__ == "__main__":
     asyncio.run(main())
+
